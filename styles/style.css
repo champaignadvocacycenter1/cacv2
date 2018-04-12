@@ -34,10 +34,31 @@ nav ul{
     justify-content: space-around;
     width: 100%;
 }
-.sticky {
+.navbar{
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+.fixed-top{
+    width:100%;
+}
+
+.fixed-sidebar {
+    position: fixed;
+    top: 40px;
+}
+
+.stickyNav {
     position: fixed;
     top: 0;
-    z-index: 99;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+}
+.stickySide {
+    position: fixed;
+    top: 0px;
+    padding-top: 53px;
 }
 
 /*-- CONTENT --*/
@@ -60,9 +81,38 @@ nav ul{
 .blurb img{
     max-width: 100%;
 }
-
-.sidebar {
-    padding: 10px;
-    margin: 10px;
+.contentLeft{
+    background-color: lightcyan;
+}
+.contentRight{
+    background-color: lightcyan;
 }
 
+/*-- Side bar --*/
+.sidebar {
+    padding: 35px 0 0 15px;
+    max-height: 100vh;
+    
+}
+.sidebar img{
+    width: 60%;
+}
+.sidebar .content{
+    text-align: center;
+}
+.sidebar .content p{
+    font-size: 12px;
+    text-align: left;
+}
+.sidebar .content img{
+    margin-top: 10px;
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+} 

@@ -37,29 +37,29 @@
                     </div>
 
                     <!-- Navigation Bar -->
-                    <div id="navigation">
-                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div id="navigationBar">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navigation">
                             <a class="navbar-brand" href="#">About Us</a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigationBar">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navCollapse">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             
-                            <div class="collapse navbar-collapse" id="navigationBar">
+                            <div class="collapse navbar-collapse" id="navCollapse">
                                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                                     <li class="nav-item active">
-                                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                        <a class="nav-link" href="#">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Link</a>
+                                        <a class="nav-link" href="#">Who We Are</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Link</a>
+                                        <a class="nav-link" href="#">Staff</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Link</a>
+                                        <a class="nav-link" href="#">About Us</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Link</a>
+                                        <a class="nav-link" href="#">Support</a>
                                     </li>
                                 </ul>
                             </div>
@@ -67,37 +67,56 @@
                     </div>
                 </div>
 
-                <div id = "content" class="content">
+                <div id = "content" class="content container-fluid">
                     <div class="row">
-                        <div class="col-sm-4">
-                            <div class="sidebar">
-                                <nav class="nav flex-column navbar-light bg-light">
-                                    <a class="p-1 nav-link active" href="#">Active</a>
-                                    <a class="p-1 nav-link" href="#">Link</a>
-                                    <a class="p-1 nav-link" href="#">Link</a>
-                                    <a class="p-1 nav-link disabled" href="#">Disabled</a>
+                        <div class="col-sm-3 contentLeft">
+                            <div class="sidebar" id="sidebar">
+                                <nav class="nav flex-column">
+                                    <a class="p-1 nav-link active disabled">About Us</a>
+                                    <a class="p-1 nav-link active" href="#summary">Summary</a>
+                                    <a class="p-1 nav-link" href="#Kari">Kari</a>
+                                    <a class="p-1 nav-link" href="#Crystal">Crystal</a>
+                                    <a class="p-1 nav-link" href="#Mary-1">Mary</a>
+                                    <a class="p-1 nav-link" href="#Mary-2">Mary</a>
                                 </nav>
+
+                                <hr>
+
+                                <div class="content">
+                                    <p id="sidebarText">
+                                        To report suspected child abuse in Illinois call:
+                                        <br>
+                                        1-800-25-ABUSE 
+                                        <br>
+                                        (1-800-252-2873)
+                                    </p>
+
+                                    <img src="resources/images/sidebarlogo.png">
+
+                                    <br>
+
+                                    <button><a href="https://www.paypal.com/donate/?token=xljh4_rJFYTKDcTtfCfRj0Cc7QcMDNbARPActd8fmGpI0e78R7N0VQ5NNlyahIH0ub_WHm&country.x=US&locale.x=US">Donate</a></button>
+
+                                </div>
+                                
+
                             </div>
                             
                         </div>
 
-                        <div class="col-sm-8">
+                        <div class="col-sm-9 contentRight">
                             <div class="banner">
                                 <img src="resources/images/team.jpg">
                             </div>
 
-                            <div class="content">
+                            <div class="text">
                                 <div class="blurb" id="summary">
                                     <h1> Summary </h1>
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
                                         do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                         Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                                        dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                                        proident, sunt in culpa qui officia deserunt mollit anim id 
-                                        est laborum
+                                        laboris nisi ut aliquip ex ea commodo consequat. 
                                     </p>
                                 </div>
 
@@ -108,17 +127,13 @@
                                         </div>
 
                                         <div class="col-sm-7">
-                                            <h1> Kari </h1>
-                                            <h2> Job Title </h2>
+                                            <h3> Kari </h3>
+                                            <h4> Job Title </h4>
                                             <p>
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
                                                 do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                                                dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                                                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                                                proident, sunt in culpa qui officia deserunt mollit anim id 
-                                                est laborum
+                                                laboris nisi ut aliquip ex ea commodo consequat.
                                             </p>
                                         </div>
                                     </div>
@@ -126,24 +141,20 @@
 
                                 <div class="blurb" id="Crystal">
                                     <div class="row">
+                                        <div class="col-sm-5">
+                                            <img src="resources/images/staff/Crystal.jpg">
+                                        </div>
 
                                         <div class="col-sm-7">
-                                            <h1> Crystal </h1>
-                                            <h2> Job Title </h2>
+                                            <h3> Crystal </h3>
+                                            <h4> Job Title </h4>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
-                                                do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                                Lorem ipsum dolor sit amet, consectetur et dolore magna aliqua. 
                                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco 
                                                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
                                                 dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                                                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                                                proident, sunt in culpa qui officia deserunt mollit anim id 
-                                                est laborum
+                                                fugiat nulla pariatur. 
                                             </p>
-                                        </div>
-
-                                        <div class="col-sm-5">
-                                            <img src="resources/images/staff/Crystal.jpg">
                                         </div>
                                     </div>
                                 </div>
@@ -155,14 +166,11 @@
                                         </div>
 
                                         <div class="col-sm-7">
-                                            <h1> Mary </h1>
-                                            <h2> Job Title </h2>
+                                            <h3> Mary </h3>
+                                            <h4> Job Title </h4>
                                             <p>
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
-                                                do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                                Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                                                dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                                                do eiusmod tempor incididunt ut esse cillum dolore eu 
                                                 fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
                                                 proident, sunt in culpa qui officia deserunt mollit anim id 
                                                 est laborum
@@ -173,23 +181,20 @@
 
                                 <div class="blurb" id="Mary-2">
                                     <div class="row">
+                                        <div class="col-sm-5">
+                                            <img src="resources/images/staff/Mary-2.jpg">
+                                        </div>
 
                                         <div class="col-sm-7">
-                                            <h1> Mary </h1>
-                                            <h2> Job Title </h2>
+                                            <h3> Mary </h3>
+                                            <h4> Job Title </h4>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
-                                                do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                                Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                                                Lorem quis nostrud exercitation ullamco consequat. Duis aute irure 
                                                 dolor in reprehenderit in voluptate velit esse cillum dolore eu 
                                                 fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
                                                 proident, sunt in culpa qui officia deserunt mollit anim id 
                                                 est laborum
                                             </p>
-                                        </div>
-                                        <div class="col-sm-5">
-                                            <img src="resources/images/staff/Mary-2.jpg">
                                         </div>
                                     </div>
                                 </div>
