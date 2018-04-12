@@ -1,3 +1,8 @@
+/*-- mobile --*/
+.sidebar{
+    display: none;
+}
+
 * {
     box-sizing: content-box;
 }
@@ -116,3 +121,9 @@ hr {
     border-style: inset;
     border-width: 1px;
 } 
+
+@media screen and (min-width: 576px){
+    .sidebar{
+        display:block;
+    }
+}
