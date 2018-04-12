@@ -18,12 +18,9 @@
 }
 
 /* -- Colors for testing -- */
-.page-layout{
-    background-color: aliceblue;
-}
 
 #wrapper{
-    background-color: aliceblue;
+    background-color:#0E284C;
 }
 
 #header{
@@ -43,24 +40,10 @@ nav ul{
     -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
     transition: width 2s;
 }
-.fixed-top{
-    width:100%;
+.navbar li{
+    padding-left:5px;
 }
-
-.fixed-sidebar {
-    position: fixed;
-    top: 40px;
-}
-
-.stickyNav {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1030;
-}
-.stickySide {
+.sticky {
     position: fixed;
     top: 0px;
     padding-top: 53px;
@@ -86,31 +69,37 @@ nav ul{
 .blurb img{
     max-width: 100%;
 }
-.contentLeft{
-    background-color: lightcyan;
+.contentLeft{    
+    background-color: #FFFFFF;
+
 }
 .contentRight{
-    background-color: lightcyan;
+    background-color: #FFFFFF;
 }
 
 /*-- Side bar --*/
 .sidebar {
-    padding: 35px 0 0 15px;
+    padding: 35px 5px 0 15px;
     max-height: 100vh;
     
 }
 .sidebar img{
     width: 60%;
+    margin-bottom: 15px;
 }
-.sidebar .content{
+.sidebar .content{    
     text-align: center;
+    padding: 15px 5px;
 }
 .sidebar .content p{
     font-size: 12px;
-    text-align: left;
 }
 .sidebar .content img{
     margin-top: 10px;
+}
+
+.sidebar a:hover{
+    color: rgb(27, 78, 150);
 }
 hr { 
     display: block;
