@@ -48,6 +48,10 @@ nav ul{
     top: 0px;
     padding-top: 53px;
 }
+.stickyBottom {
+    position: absolute;
+    bottom: 0;
+}
 
 /*-- CONTENT --*/
 .banner {
