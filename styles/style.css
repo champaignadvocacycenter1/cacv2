@@ -2,6 +2,9 @@
 .sidebar{
     display: none;
 }
+.donateButton{
+    display: none;
+}
 
 * {
     box-sizing: content-box;
@@ -25,6 +28,7 @@
 
 #header{
     background-color: white;
+    padding: 0;
 }
 
 /*-- HEADER -- */
@@ -52,6 +56,13 @@ nav ul{
     position: absolute;
     bottom: 0;
 }
+#logo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
 
 /*-- CONTENT --*/
 .banner {
@@ -73,15 +84,12 @@ nav ul{
 .blurb img{
     max-width: 100%;
 }
-.contentLeft{    
-    background-color: #FFFFFF;
-
-}
-.contentRight{
-    background-color: #FFFFFF;
-}
 
 /*-- Side bar --*/
+.sidebarRow{
+    background-color: #FFFFFF;
+    min-height: 95vh;
+}
 .sidebar {
     padding: 35px 5px 0 15px;
     max-height: 100vh;
@@ -115,8 +123,42 @@ hr {
     border-width: 1px;
 } 
 
+/*--- FOOTER --*/
+.footer{
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.footer a{
+    color: #FFFFFF;
+}
+.footer .disabled{
+    color: #FFFFFF;
+}
+.footerLeft{
+    text-align: center;
+    padding: 5% 0;
+}
+.footerMiddle{
+    text-align: center;
+    padding: 5% 0;
+}
+.footerMiddle p{
+    color: #FFFFFF;
+}
+.footerRight{
+    text-align: center;
+    padding: 5% 0;
+}
+
 @media screen and (min-width: 576px){
     .sidebar{
         display:block;
+    }
+    .donateButton{
+        display: block;
+        text-align: center;
+        margin: auto;
     }
 }

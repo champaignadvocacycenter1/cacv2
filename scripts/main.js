@@ -40,14 +40,17 @@ function stick() {
 
   if (y<sticky) {
     sidebar.classList.remove("sticky");
-  } else {
+  }
+  if ( y>=sticky ) {
     sidebar.classList.add("sticky");
     sidebar.classList.remove("stickyBottom");
     sidebar.style.width = width+"px";
   }
-  if (y+sidebar.offsetHeight>=stickyBottom){
-    sidebar.classList.remove("sticky");
-    sidebar.classList.add("stickyBottom");
+  if ( y+sidebar.offsetHeight>=stickyBottom){
+    if (sidebar.classList.contains("sticky")){
+      sidebar.classList.remove("sticky");
+      sidebar.classList.add("stickyBottom");
+    }
     sidebar.style.width = width+"px";
   }
 }
