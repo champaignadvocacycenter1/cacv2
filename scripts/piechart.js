@@ -32,6 +32,10 @@ var pie = new d3pie("pieChartAge", {
             format: "label-percentage2",
             hideWhenLessThanPercentage: 3
         },
+        mainLabel: {
+            color: "#ffffff",
+            fontSize: 11
+        },
         percentage: {
             color: "#ffffff",
             decimalPlaces: 0
@@ -104,6 +108,7 @@ var pie = new d3pie("pieChartAge", {
             hideWhenLessThanPercentage: 3
         },
         mainLabel: {
+            color: "#ffffff",
             fontSize: 11
         },
         percentage: {
@@ -186,6 +191,7 @@ var pie = new d3pie("pieChartRace", {
             hideWhenLessThanPercentage: 3
         },
         mainLabel: {
+            color: "#ffffff",
             fontSize: 11
         },
         percentage: {
