@@ -84,6 +84,9 @@ nav ul{
 .blurb img{
     max-width: 100%;
 }
+.blurb h1{
+    font-size: 24px;
+}
 
 /*-- Side bar --*/
 .sidebarRow{
@@ -92,7 +95,7 @@ nav ul{
 }
 .sidebar {
     padding: 35px 5px 0 15px;
-    max-height: 100vh;
+    font-size: 12px;
 }
 .sidebar img{
     width: 60%;
