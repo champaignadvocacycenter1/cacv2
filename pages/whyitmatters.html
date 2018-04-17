@@ -109,18 +109,73 @@
                         <div class="col-sm-9 contentRight">
                             <!-- BANNER IMAGE GOES HERE!!! -->
                             <div class="banner">
-                                <img src="">
+                                <img src="../resources/images/whyitmatters.png">
                             </div>
 
                             <!-- TEXT CONTENT -->
                             <div class="text">
-                                <div class="blurb" id="summary">
-                                    <h1> Summary </h1>
+                                <div class="blurb" id="intro-stats">
+                                    <h1> Child abuse is painfully common. </h1>
+                                    <center>
+                                    <img src="../resources/images/boystatistics.png">
+                                    <img src="../resources/images/girlstatistics.png">
+                                    <img src="../resources/images/knownabuser.png">
+                                    </center>
+                                    <hr>
                                     <p>
-                                        About us.....
+                                        In America, over <b>3.6 million</b> cases of child abuse are reported annually.
                                     </p>
+                                    <p>
+                                        That is a report every <b>every 10 seconds</b>.
+                                        What follows is one of the hardest things a child and their family
+                                        can go through. 
+                                        It is exceeding important to make sure that the process of interviewing
+                                        the child and moving forward legally is done properly and in a way that doesn't hurt
+                                        the child further. It is equally important to help the child and their family heal from
+                                        the trauma that they've endured.
+                                    </p>
+                                    <p>
+                                        That CAC works tirelessly to:
+                                    </p>
+                                    <ul>
+                                        <li>Do the best job possible in finding out what happened.</li>
+                                        <li>Work with the legal system to help the child.</li>
+                                        <li>Help you understand the child protective and legal systems.</li>
+                                        <li>Help make the process as comfortable as possible for the parents.</li>
+                                        <li>Help the children and family begin to heal.</li>
+                                    </ul>  
                                 </div>
-
+                                <h1> Breakdown of Children Helped by CAC (2017)</h1>
+                                <hr>
+                                <div>
+                                    <center>
+                                    <div id="pieChartAge"></div>
+                                    <div id="pieChartRace"></div>
+                                    <div id="pieChartGender"></div>
+                                    </center>
+                                </div>
+                                <div class="blurb" id="support">
+                                <p>
+                                    All services at the CAC are free. We strongly believe families should not be burdened
+                                    with the financial cost of legal proceedings to bring justice to the offender or
+                                    the therapy required to recover from the actions of that person. We receive funding
+                                    from the state and federal government to supplement the cost of operation, but it is
+                                    often not enough. This requires the CAC to rely on the private donations of individuals
+                                    in the community to help pay for services such as therapy for the children. Every child
+                                    helped at our facility is a child that lives in Champaign or Ford county. 
+                                    All donations collected are spent to help the victims of child sexual abuse and severe
+                                    physical abuse recover. Each donation can be thought of as an investment into our community. 
+                                    By donating to our organization, you are guaranteeing each child who visits the CAC is 
+                                    supplied proper assistance in the journey to recovery. Annually, there are over 200 
+                                    children that are referred to us after sexual abuse has been reported, each with the 
+                                    potential to live meaningful life, free of mental struggles (reword) cause by abuse. 
+                                    Any donation is appreciated; however, child sexual abuse is an inevitable (reword)
+                                    problem. Every year there are new cases reported to the authorities that requires our
+                                    services. Recurring donations help us keep our doors open so we can continuously help
+                                    those affected year after year. Please use the donation box below to make sure children 
+                                    get the help they deserve
+                                </p>
+                                </div>
                                 <div class="sublink" id="sublink">
                                     
                                 </div>
@@ -203,7 +258,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="../scripts/main.js"></script>
-
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="../scripts/d3pie.min.js"></script>
+        <script src="../scripts/piechart.js"></script>
     </body>
 
 
