@@ -1,18 +1,24 @@
 # Project Title
 
-One Paragraph of project description goes here
+This is a webpage built for the Champaign County Children's Advocacy Center through 
+the course CS465/ADV492 taught by Mike Yao at the University of Illinois at Urbana-Champaign.
+The purpose of this assignment was to meet and deliver a product for a client in a group.
+We built this webpage for the Champaign County Children's Advocacy Center to offer a unified
+place for children and parents coming into the facility to find information and literature
+about what to expect, as well as a place where possible donors would come and learn about
+how the CCCAC benefits the community. 
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This site was built with simplicity, easy maintainablity, and responsiveness in mind. 
+By using plain vanilla HTML, JavaScript, and CSS, we can deploy this website without
+the use of any databases or frameworks. There is little to no backend maintenance to be 
+done. 
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+If you would like to read or learn more about HTML, JavaScript, or CSS:
+- [HTML](https://www.w3schools.com/html/)
+- [JavaScript](https://www.w3schools.com/javascript/)
+- [CSS](https://www.w3schools.com/css/)
 
 ---
 
@@ -69,9 +75,3 @@ See also the list of [contributors](https://github.com/your/project/contributors
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
