@@ -44,14 +44,25 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Crystal Wang** 
+This website was created as part of a project for CS468/ADV492 with **Mike Yao**. Website code
+was written by Connie Fan & Crystal Wang. Please 
 
-Header, footer, navigation bar, sidebar sticky scrolling, page layout, mobile layout, 
-pages "Staff", "About".
+* **Crystal Wang** 
+Header, footer, navigation bar, sidebar, page layout, mobile layout, "Staff", "About".
+Email: crystalwang95@gmail.com
 
 * **Connie Fan** 
-All graphics, Facebook integration, 
+All graphics, Facebook integration, "Resources", "What We Do", "Why It Matters".
+Email: cfan7388@gmail.com
 
+* **Jacob Turenne**
+Email: jturenn2@illinois.edu
+
+* **Ellie Hahn**
+Email: 
+
+* **Austin Green**
+Email: ajgreen5@illinois.edu
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
