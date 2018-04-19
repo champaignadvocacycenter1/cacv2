@@ -39,14 +39,10 @@ If you would like to read or learn more about HTML, JavaScript, or CSS:
 - Plain CSS was used for styling
 
 
-## Changing 
-
-
 ## Contributing
 
 If you would like to volunteer for the Champaign County Children's Advocacy Center, please
 inquire at: CACMail@co.champaign.il.us
----
 
 ## Authors
 
