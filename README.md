@@ -55,16 +55,20 @@ was written by Connie Fan & Crystal Wang. Please
 
 * **Crystal Wang** 
 Header, footer, navigation bar, sidebar, page layout, mobile layout, "Staff", "About".
+
 Email: crystalwang95@gmail.com
 
 * **Connie Fan** 
 All graphics, Facebook integration, "Resources", "What We Do", "Why It Matters".
+
 Email: cfan7388@gmail.com
 
 * **Jacob Turenne**
+
 Email: jturenn2@illinois.edu
 
 * **Ellie Hahn**
+
 Email: 
 
 * **Austin Green**
