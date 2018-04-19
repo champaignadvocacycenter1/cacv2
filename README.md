@@ -38,6 +38,13 @@ If you would like to read or learn more about HTML, JavaScript, or CSS:
 
 - Plain CSS was used for styling
 
+---
+
+## To Do:
+
+- Change sidebar logo to standard NCA Logo
+- Launch to domain name
+
 
 ## Contributing
 
