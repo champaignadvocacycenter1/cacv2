@@ -1,4 +1,4 @@
-# Project Title
+# Champaign County Children's Advocacy Center Website
 
 This is a webpage built for the Champaign County Children's Advocacy Center through 
 the course CS465/ADV492 taught by Mike Yao at the University of Illinois at Urbana-Champaign.
