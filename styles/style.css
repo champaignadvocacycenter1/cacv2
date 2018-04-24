@@ -5,6 +5,13 @@
 .donateButton{
     display: none;
 }
+button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+button a:hover{
+    text-decoration: none;
+}
 
 * {
     box-sizing: content-box;
@@ -43,9 +50,11 @@ nav ul{
 }
 .navbar{
     background-color: #0E284C;
+    color: #ffffff;
 }
 .navbar li{
     padding-left:5px;
+    color: #ffffff;
 }
 .sticky {
     position: fixed;
