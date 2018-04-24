@@ -16,11 +16,11 @@ var pie = new d3pie("pieChartAge", {
         content: [{
             label: "Male",
             value: 59,
-            color: "#2383c1"
+            color: "#4286f4"
         }, {
             label: "Female",
             value: 174,
-            color: "#64a61f"
+            color: "#ed5e78"
         }]
     },
     labels: {
@@ -83,19 +83,19 @@ var pie = new d3pie("pieChartAge", {
         content: [{
             label: "Under 6 years",
             value: 24,
-            color: "#2383c1"
+            color: "#4286f4"
         }, {
             label: "7-12 years",
             value: 82,
-            color: "#64a61f"
+            color: "#ed5e78"
         }, {
             label: "13-17 years",
             value: 85,
-            color: "#7b6788"
+            color: "#47b1c1"
         }, {
             label: "Over 18",
             value: 2,
-            color: "#a05c56"
+            color: "#4a9b75"
         }]
     },
     labels: {
@@ -162,15 +162,15 @@ var pie = new d3pie("pieChartRace", {
         content: [{
             label: "White",
             value: 150,
-            color: "#2383c1"
+            color: "#47b1c1"
         }, {
             label: "Black",
             value: 43,
-            color: "#64a61f"
+            color: "#4286f4"
         }, {
             label: "Bi/Multi Racial",
             value: 15,
-            color: "#7b6788"
+            color: "#ed5e78"
         }, {
             label: "Asian",
             value: 1,
@@ -178,7 +178,7 @@ var pie = new d3pie("pieChartRace", {
         }, {
             label: "Hispanic",
             value: 24,
-            color: "#961919"
+            color: "#ed5e78"
         }]
     },
     labels: {
