@@ -23,7 +23,8 @@
 /* -- Colors for testing -- */
 
 #wrapper{
-    background-color:#0E284C;
+    background-color: #f8f9fa!important;
+    /* background-color:#0E284C; */
 }
 
 #header{
@@ -41,8 +42,7 @@ nav ul{
     width: 100%;
 }
 .navbar{
-    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
-    transition: width 2s;
+    background-color: #0E284C;
 }
 .navbar li{
     padding-left:5px;
@@ -131,7 +131,7 @@ hr {
 
 /*--- FOOTER --*/
 .footer{
-    background-color: cornflowerblue;
+    background-color: #0E284C;
     display: flex;
     align-items: center;
     font-size: 12px;
@@ -156,6 +156,9 @@ hr {
 .footerRight{
     text-align: center;
     padding: 5% 0;
+}
+.footer b{
+    color: #ffffff;
 }
 
 @media screen and (min-width: 576px){
