@@ -40,12 +40,6 @@ If you would like to read or learn more about HTML, JavaScript, or CSS:
 
 ---
 
-## To Do:
-
-- Change sidebar logo to standard NCA Logo
-- Launch to domain name
-
-
 ## Contributing
 
 If you would like to volunteer for the Champaign County Children's Advocacy Center, please
